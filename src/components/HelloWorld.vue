@@ -5,78 +5,30 @@
     <ul>
       <li>
         <a
-          href="https://vuejs.org"
-          target="_blank"
+          href="/part1"
         >
-          Core Docs
+          PART1 DEMO
         </a>
       </li>
       <li>
         <a
-          href="https://forum.vuejs.org"
-          target="_blank"
+          href="/part2"
         >
-          Forum
+          PART2 DEMO
         </a>
       </li>
       <li>
         <a
-          href="https://chat.vuejs.org"
-          target="_blank"
+          href="/part3"
         >
-          Community Chat
+          PART3 DEMO
         </a>
       </li>
       <li>
         <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
+          href="/part4"
         >
-          Twitter
-        </a>
-      </li>
-      <br>
-      <li>
-        <a
-          href="http://vuejs-templates.github.io/webpack/"
-          target="_blank"
-        >
-          Docs for This Template
-        </a>
-      </li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li>
-        <a
-          href="http://router.vuejs.org/"
-          target="_blank"
-        >
-          vue-router
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vuex.vuejs.org/"
-          target="_blank"
-        >
-          vuex
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vue-loader.vuejs.org/"
-          target="_blank"
-        >
-          vue-loader
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-        >
-          awesome-vue
+          PART4 DEMO
         </a>
       </li>
     </ul>
@@ -88,7 +40,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to programmer-demo'
     }
   }
 }

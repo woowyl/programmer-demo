@@ -13,6 +13,8 @@ function resolve (dir) {
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
+    vendor: ['vue', 'vue-router'],
+    index: './src/main.js',
     part1: './src/PART1/main.js',
     part2: './src/PART2/main.js',
     part3: './src/PART3/main.js',
