@@ -61,7 +61,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       title: 'part1',
       filename: config.build.index+'/part1/index.html',
-      chunks: ['part1', 'manifest', 'vendor'],
+      chunks: ['part1', 'vendor'],
       template: 'index.html',
       inject: true,
       minify: {
@@ -73,7 +73,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     }),
     new HtmlWebpackPlugin({
       filename: config.build.index+'/part2/index.html',
-      chunks: ['part2', 'manifest','vendor'],
+      chunks: ['part2','vendor'],
       template: 'index.html',
       inject: true,
       minify: {
@@ -85,7 +85,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     }),
     new HtmlWebpackPlugin({
       filename: config.build.index+'/part3/index.html',
-      chunks: ['part3', 'manifest','vendor'],
+      chunks: ['part3','vendor'],
       template: 'index.html',
       inject: true,
       minify: {
@@ -97,7 +97,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     }),
     new HtmlWebpackPlugin({
       filename: config.build.index+'/part4/index.html',
-      chunks: ['part4', 'manifest','vendor'],
+      chunks: ['part4','vendor'],
       template: 'index.html',
       inject: true,
       minify: {
@@ -124,10 +124,6 @@ const webpackConfig = merge(baseWebpackConfig, {
           ) === 0
         )
       }
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'manifest',
-      minChunks: Infinity
     }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'app',
