@@ -2,6 +2,8 @@
 
 > some demo for [programmer2018](https://github.com/woowyl/programmer2018)
 
+[preview](http://www.wangyuanliang.com/programmer-demo/dist/#/)
+
 ## Build Setup
 
 ``` bash
