@@ -43,7 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: '',
-    assetsPublicPath: '/dist/',
+    assetsPublicPath: '/programmer-demo/dist/',
 
     /**
      * Source Maps
