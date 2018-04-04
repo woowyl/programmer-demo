@@ -5,28 +5,28 @@
     <ul>
       <li>
         <a
-          href="/part1"
+          href="./part1"
         >
           PART1 DEMO
         </a>
       </li>
       <li>
         <a
-          href="/part2"
+          href="./part2"
         >
           PART2 DEMO
         </a>
       </li>
       <li>
         <a
-          href="/part3"
+          href="./part3"
         >
           PART3 DEMO
         </a>
       </li>
       <li>
         <a
-          href="/part4"
+          href="./part4"
         >
           PART4 DEMO
         </a>
