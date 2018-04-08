@@ -10,7 +10,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at http://0.0.0:8092
+# serve with hot reload at http://0.0.0.0:8092
 npm run dev
 
 # build for production with minification
