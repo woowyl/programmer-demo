@@ -23,9 +23,9 @@ const webpackConfig = merge(baseWebpackConfig, {
   },
   devtool: config.build.productionSourceMap ? config.build.devtool : false,
   output: {
-    path: config.build.assetsRoot,
+    path: config.build.assetsRoot, // path.resolve(__dirname, '../dist'),
     filename: utils.assetsPath('[name]/js/[name].[chunkhash].js'),
-    chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
+    // chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -164,4 +164,5 @@ if (config.build.bundleAnalyzerReport) {
   webpackConfig.plugins.push(new BundleAnalyzerPlugin())
 }
 
+console.log(webpackConfig.module.rules[5]);
 module.exports = webpackConfig
