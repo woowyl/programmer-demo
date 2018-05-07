@@ -1,7 +1,14 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+  <div class="">
+    <img src="../assets/logo.png">
+    <dl class="demo-list">
+      <dt class="demo-list">
+          JS进阶
+      </dt>
+      <dd>
+          <router-link to="/js/scroll">滚动 scroll</router-link>
+      </dd>
+    </dl>
   </div>
 </template>
 
