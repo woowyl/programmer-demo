@@ -55,7 +55,7 @@
                  $(window).on('scroll', ()=> {
                     console.log('window scroll',$(window).scrollTop());
                     console.log('html scroll',$('html').scrollTop());
-                    console.log('body scroll',$('body').scrollTop());
+                    console.log('body scroll------->',$('body').scrollTop());
                 })
             }
         },
